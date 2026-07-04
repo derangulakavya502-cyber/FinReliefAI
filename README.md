@@ -80,6 +80,34 @@ http://127.0.0.1:8000/docs
 * PUT /loan/{loan_id}
 * DELETE /loan/{loan_id}
 * POST /financial-health
+## 📸 Screenshots
+
+### Terminal Page
+![Terminal Page](screenshots/terminal.png)
+
+### API Page
+![API Page](screenshots/API.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Loan Form
+![Loan Form](screenshots/create-loan-api.png)
+
+### Swagger UI
+![Swagger UI](screenshots/swagger.png)
+
+### financial health api
+![financial-health-api](screenshots/financial-health-api.png)
+
+### project structure
+![project-structure](screenshorts/project-structure.png)
+
+### financial dashboard-charts
+![dashboard-charts](screenshorts/dashboard-charts.png)
+
+### dashboard print
+![dashboard-print](screenshots/dashboard-print.png)
 
 ## Outcome
 
