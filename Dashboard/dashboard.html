@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinRelief AI Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header class="header">
+    <h1>💰 FinRelief AI</h1>
+    <p>Financial Health Dashboard</p>
+</header>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>Monthly Income</h3>
+        <h2 id="income">₹50,000</h2>
+    </div>
+
+    <div class="card">
+        <h3>Monthly Expenses</h3>
+        <h2 id="expenses">₹20,000</h2>
+    </div>
+
+    <div class="card">
+        <h3>Monthly EMI</h3>
+        <h2 id="emi">₹9,680</h2>
+    </div>
+
+    <div class="card">
+        <h3>Monthly Surplus</h3>
+        <h2 id="surplus">₹20,320</h2>
+    </div>
+
+    <div class="card">
+        <h3>EMI Ratio</h3>
+        <h2 id="ratio">19%</h2>
+    </div>
+
+    <div class="card">
+        <h3>Financial Status</h3>
+        <h2 id="status">Healthy ✅</h2>
+    </div>
+
+</section>
+
+<section class="charts">
+
+    <div class="chart-box">
+        <h2>Income vs Expenses vs EMI</h2>
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <div class="chart-box">
+        <h2>Expense Distribution</h2>
+        <canvas id="pieChart"></canvas>
+    </div>
+
+</section>
+
+<section class="health">
+
+    <h2>Financial Health Score</h2>
+
+    <progress value="82" max="100"></progress>
+
+    <h3>82 / 100</h3>
+
+</section>
+
+<footer>
+
+    <p>FinRelief AI © 2026</p>
+
+</footer>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
