@@ -101,10 +101,10 @@ http://127.0.0.1:8000/docs
 ![financial-health-api](screenshots/financial-health-api.png)
 
 ### project structure
-![project-structure](screenshorts/project-structure.png)
+![project-structure](screenshots/project-structure.png)
 
 ### financial dashboard-charts
-![dashboard-charts](screenshorts/dashboard-charts.png)
+![dashboard-charts](screenshots/dashboard-charts.png)
 
 ### dashboard print
 ![dashboard-print](screenshots/dashboard-print.png)
