@@ -126,3 +126,40 @@ new Chart(document.getElementById("pieChart"), {
     }
 
 });
+// Sample values (replace these with API values)
+let emiRatio = 19;
+let score = 82;
+
+// Financial Health Score
+document.querySelector("progress").value = score;
+
+// Risk Indicator
+const risk = document.getElementById("riskIndicator");
+
+if (emiRatio < 30) {
+    risk.innerHTML = "🟢 Low Risk";
+    risk.className = "low";
+}
+else if (emiRatio < 50) {
+    risk.innerHTML = "🟡 Medium Risk";
+    risk.className = "medium";
+}
+else {
+    risk.innerHTML = "🔴 High Risk";
+    risk.className = "high";
+}
+
+// Settlement Recommendation
+let recommendation = "";
+
+if (emiRatio < 30) {
+    recommendation = "Your financial condition is healthy. Continue making regular EMI payments.";
+}
+else if (emiRatio < 50) {
+    recommendation = "Consider discussing repayment options with your lender.";
+}
+else {
+    recommendation = "High repayment burden detected. Consider loan restructuring or settlement discussions.";
+}
+
+document.getElementById("recommendation").innerHTML = recommendation;
