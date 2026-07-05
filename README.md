@@ -109,6 +109,9 @@ http://127.0.0.1:8000/docs
 ### dashboard print
 ![dashboard-print](screenshots/dashboard-print.png)
 
+### settlement-result
+![settlement-result](screenshots/settlement-result.png)
+
 ## Outcome
 
 The project successfully calculates financial health metrics, manages loan records, and provides a professional dashboard for financial visualization using FastAPI and SQLite.
